@@ -4,23 +4,22 @@ A simple countdown timer made with Flask and JavaScript.
 ## DEMO
 http://timertimer.herokuapp.com/
 
-![demo](https://raw.githubusercontent.com/helloflask/timer-flask/master/static/demo.png)
+![demo](https://raw.githubusercontent.com/helloflask/timer/master/static/demo.png)
 
 ## Versions
-Flask==0.11.1  
-Jinja2==2.8  
-Werkzeug==0.11.11  
+Flask==1.0.2 
+Jinja2==2.10 
+Werkzeug==0.14.1
 
 ## Installation
 Change to app directory, use `virtualenv` create and activate virtual enviroment.  
 Then use `pip` to install requirements：  
 ```
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 Run:  
-```
-set FLASK_APP=app.py    
-flask run
+```  
+$ flask run
 ```
 
 Go to http://127.0.0.1:5000/
